@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev     #开发环境
+  application:
+    name: familybusi-config-sitech-dev
+---
+spring:
+  profiles: test    #测试环境
+  application:
+    name: familybusi-config-sitech-test
+### 务必保存为 UTF-8格式
