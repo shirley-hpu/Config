@@ -12,7 +12,7 @@ spring:
   cloud:
     #配置注册中心
     zookeeper:
-      connect-string: 172.18.232.196:2281,172.18.232.197:2281,172.18.232.198:2281
+      connect-string: 172.16.46.130:2181,172.16.46.131:2181,172.16.46.132:2181
       discovery:
         enabled: true
         register: true
@@ -27,7 +27,7 @@ spring:
   cloud:
     #配置注册中心
     zookeeper:
-      connect-string: 172.18.232.196:2281,172.18.232.197:2281,172.18.232.198:2281
+      connect-string: 172.16.46.130:2181,172.16.46.131:2181,172.16.46.132:2181
       discovery:
         enabled: true
         register: true
